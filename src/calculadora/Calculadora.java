@@ -1,15 +1,6 @@
 package calculadora;
 
 public class Calculadora {
-	
-// Codigo duplicado 
-//	public double sumar(double a, double b) {
-//		return a + b;
-//	}
-//
-//	public double restar(double a, double b) {
-//		return a - b;
-//	}
 
 	public static void main(String[] args) {
 		Calculadora calc = new Calculadora();
@@ -29,10 +20,8 @@ public class Calculadora {
 		return a * b;
 	}
 
-//	public static void main1(String[] args) {
-//		Calculadora calc = new Calculadora();
-//		System.out.println("--- CALCULADORA DEL JEFE A ---");
-//		System.out.println("Suma: " + calc.sumar(10, 5));
-//	}
-
+	// Fase 2 - metodo DESARROLLADOR B 
+	public double potencia(double base, double exponente) {
+		 return Math.pow(base, exponente);
+		}
 }
